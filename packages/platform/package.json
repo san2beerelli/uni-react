@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@unireact/components": "0.1.0",
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
     "babel-loader": "7.1.2",
     "babel-preset-react-app": "^3.1.1",
-    "babel-runtime": "6.26.0",
     "case-sensitive-paths-webpack-plugin": "2.1.1",
     "chalk": "1.1.3",
     "css-loader": "0.28.7",
@@ -49,7 +49,13 @@
   "devDependencies": {
     "babel-jest": "22.4.3",
     "babel-plugin-react-native-web": "0.6.1",
+    "babel-plugin-transform-async-to-generator": "6.24.1",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-es2015": "6.24.1",
     "babel-preset-react-native": "4.0.0",
+    "babel-runtime": "6.26.0",
     "jest": "22.4.3",
     "react-test-renderer": "16.3.1"
   },
@@ -65,8 +71,12 @@
   },
   "jest": {
     "preset": "react-native",
-    "collectCoverageFrom": ["src/**/*.{js,jsx,mjs}"],
-    "setupFiles": ["<rootDir>/config/polyfills.js"],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,mjs}"
+    ],
+    "setupFiles": [
+      "<rootDir>/config/polyfills.js"
+    ],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
       "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
@@ -76,10 +86,11 @@
     "transform": {
       "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest",
       "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
-      "^(?!.*\\.(js|jsx|mjs|css|json)$)":
-        "<rootDir>/config/jest/fileTransform.js"
+      "^(?!.*\\.(js|jsx|mjs|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
     },
-    "transformIgnorePatterns": ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"],
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
+    ],
     "moduleNameMapper": {
       "^react-native$": "react-native-web"
     },
@@ -94,12 +105,16 @@
     ]
   },
   "babel": {
-    "presets": ["react-app"]
+    "presets": [
+      "react-app"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
   },
   "rnpm": {
-    "assets": ["./assets/fonts"]
+    "assets": [
+      "./assets/fonts"
+    ]
   }
 }

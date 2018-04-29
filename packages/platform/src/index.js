@@ -1,8 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React, { Component, Fragment } from "react";
+import ReactDOM from "react-dom";
+import { Typography } from "@unireact/components";
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+class App extends Component {
+  render() {
+    return (
+      <Fragment>
+        <Typography variant="display4" color="primary">
+          Display4
+        </Typography>
+      </Fragment>
+    );
+  }
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
