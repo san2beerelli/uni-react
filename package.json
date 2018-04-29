@@ -1,0 +1,33 @@
+{
+  "name": "unireact",
+  "version": "0.1.0-development",
+  "description": "Universal Component Library for React",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/san2beerelli/uni-react.git"
+  },
+  "keywords": [
+    "reactjs",
+    "react-native",
+    "react-sketchapp",
+    "react-primitives",
+    "reactui",
+    "universal-components",
+    "react",
+    "react-components"
+  ],
+  "author":
+    "Santhosh Beerelli <san2beerelli@gmail.com> (http://san2beerelli.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/san2beerelli/uni-react/issues"
+  },
+  "homepage": "https://github.com/san2beerelli/uni-react#readme",
+  "devDependencies": {
+    "lerna": "2.11.0"
+  }
+}
