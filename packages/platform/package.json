@@ -1,5 +1,5 @@
 {
-  "name": "platform",
+  "name": "@unireact/platform",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -31,9 +31,12 @@
     "promise": "8.0.1",
     "raf": "3.4.0",
     "react": "^16.3.2",
+    "react-art": "16.3.2",
     "react-dev-utils": "^5.0.1",
     "react-dom": "^16.3.2",
     "react-native": "0.55.3",
+    "react-native-web": "0.6.1",
+    "react-primitives": "0.5.0",
     "resolve": "1.6.0",
     "style-loader": "0.19.0",
     "sw-precache-webpack-plugin": "0.11.4",
@@ -45,6 +48,7 @@
   },
   "devDependencies": {
     "babel-jest": "22.4.3",
+    "babel-plugin-react-native-web": "0.6.1",
     "babel-preset-react-native": "4.0.0",
     "jest": "22.4.3",
     "react-test-renderer": "16.3.1"
@@ -56,15 +60,13 @@
     "test:mobile": "jest",
     "test": "node scripts/test.js --env=jsdom",
     "android": "node node_modules/react-native/local-cli/cli.js run-android",
-    "ios": "node node_modules/react-native/local-cli/cli.js run-ios"
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "native:link": "node node_modules/react-native/local-cli/cli.js link"
   },
   "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx,mjs}"
-    ],
-    "setupFiles": [
-      "<rootDir>/config/polyfills.js"
-    ],
+    "preset": "react-native",
+    "collectCoverageFrom": ["src/**/*.{js,jsx,mjs}"],
+    "setupFiles": ["<rootDir>/config/polyfills.js"],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
       "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
@@ -74,11 +76,10 @@
     "transform": {
       "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest",
       "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
-      "^(?!.*\\.(js|jsx|mjs|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+      "^(?!.*\\.(js|jsx|mjs|css|json)$)":
+        "<rootDir>/config/jest/fileTransform.js"
     },
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
-    ],
+    "transformIgnorePatterns": ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"],
     "moduleNameMapper": {
       "^react-native$": "react-native-web"
     },
@@ -93,11 +94,12 @@
     ]
   },
   "babel": {
-    "presets": [
-      "react-app"
-    ]
+    "presets": ["react-app"]
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "rnpm": {
+    "assets": ["./assets/fonts"]
   }
 }
