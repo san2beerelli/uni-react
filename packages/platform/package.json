@@ -71,7 +71,8 @@
     "android": "node node_modules/react-native/local-cli/cli.js run-android",
     "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
     "native:link": "node node_modules/react-native/local-cli/cli.js link",
-    "haul": "haul"
+    "haul": "haul",
+    "haul:ios": "npx haul start --platform ios"
   },
   "jest": {
     "preset": "react-native",
