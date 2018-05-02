@@ -1,6 +1,7 @@
 {
   "presets": ["react-native"],
   "plugins": [
+    "idx",
     "transform-object-rest-spread",
     [
       "module-resolver",
