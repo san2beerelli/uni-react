@@ -37,6 +37,7 @@
     "react-native": "0.55.3",
     "react-native-web": "0.6.1",
     "react-primitives": "0.5.0",
+    "react-sketchapp": "^1.1.0",
     "resolve": "1.6.0",
     "style-loader": "0.19.0",
     "sw-precache-webpack-plugin": "0.11.4",
@@ -60,7 +61,8 @@
     "babel-runtime": "6.26.0",
     "haul": "^1.0.0-rc.0",
     "jest": "22.4.3",
-    "react-test-renderer": "16.3.1"
+    "react-test-renderer": "16.3.1",
+    "@skpm/builder": "^0.5.4"
   },
   "scripts": {
     "start:web": "node scripts/start.js",
@@ -72,16 +74,20 @@
     "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
     "native:link": "node node_modules/react-native/local-cli/cli.js link",
     "haul": "haul",
-    "haul:ios": "npx haul start --platform ios"
+    "haul:ios": "npx haul start --platform ios",
+    "sketch:build": "skpm-build",
+    "sketch:watch": "skpm-build --watch",
+    "sketch:render": "skpm-build --watch --run",
+    "sketch:render:once": "skpm-build --run"
+  },
+  "skpm": {
+    "main": "uni-react.sketchplugin",
+    "manifest": "sketch/sketch.json"
   },
   "jest": {
     "preset": "react-native",
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx,mjs}"
-    ],
-    "setupFiles": [
-      "<rootDir>/config/polyfills.js"
-    ],
+    "collectCoverageFrom": ["src/**/*.{js,jsx,mjs}"],
+    "setupFiles": ["<rootDir>/config/polyfills.js"],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
       "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
@@ -91,11 +97,10 @@
     "transform": {
       "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest",
       "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
-      "^(?!.*\\.(js|jsx|mjs|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+      "^(?!.*\\.(js|jsx|mjs|css|json)$)":
+        "<rootDir>/config/jest/fileTransform.js"
     },
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
-    ],
+    "transformIgnorePatterns": ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"],
     "moduleNameMapper": {
       "^react-native$": "react-native-web"
     },
@@ -110,16 +115,12 @@
     ]
   },
   "babel": {
-    "presets": [
-      "react-app"
-    ]
+    "presets": ["react-app"]
   },
   "eslintConfig": {
     "extends": "react-app"
   },
   "rnpm": {
-    "assets": [
-      "./assets/fonts"
-    ]
+    "assets": ["./assets/fonts"]
   }
 }

@@ -1,19 +1,29 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, Fragment } from "react";
+import { Typography } from "@unireact/components";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Fragment>
+        <Typography variant="display4" color="primary">
+          display4
+        </Typography>
+        <Typography variant="display3" color="secondary">
+          display3
+        </Typography>
+        <Typography variant="display2" color="error">
+          display2
+        </Typography>
+        <Typography variant="display1" color="primaryDark">
+          display1
+        </Typography>
+        <Typography variant="title" color="primaryLight">
+          title
+        </Typography>
+        <Typography color="primaryLight" align="right" display="inherit">
+          santhosh
+        </Typography>
+      </Fragment>
     );
   }
 }
