@@ -20,10 +20,10 @@ const palette = {
   errorDark: "#d32f2f",
   errorContrastText: "#fff",
 
-  textPrimary: "rgba(0, 0, 0, 0.87)",
-  textSecondary: "rgba(0, 0, 0, 0.54)",
-  textDisabled: "rgba(0, 0, 0, 0.38)",
-  textHint: "rgba(0, 0, 0, 0.38)",
+  textPrimary: "rgba(255, 255, 255, 0.87)",
+  textSecondary: "rgba(255, 255, 255,, 0.54)",
+  textDisabled: "rgba(255, 255, 255,, 0.38)",
+  textHint: "rgba(255, 255, 255,, 0.38)",
 
   grey: {
     50: "#fafafa",

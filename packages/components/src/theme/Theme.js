@@ -1,11 +1,9 @@
 //import palx from "palx";
 //import { removeProps } from "styled-system";
 import typography from "./Typography";
+import button from "./Button";
 import palette from "./Palette";
-
-const spacing = {
-  unit: 8
-};
+import spacing from "./Spacing"
 
 /* const red = "#e42d42";
 const blue = "#2d9ce4";
@@ -113,7 +111,8 @@ export const filterProps = props =>
 const theme = {
   typography,
   palette,
-  spacing
+  spacing,
+  button
 };
 
 export default theme;

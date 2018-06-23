@@ -9,3 +9,5 @@ const ThemeProvider = props => (
     children={<Fragment>{props.children}</Fragment>}
   />
 );
+
+export default ThemeProvider;

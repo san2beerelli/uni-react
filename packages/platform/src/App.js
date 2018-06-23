@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { Typography } from "@unireact/components";
+import { Typography, Button } from "@unireact/components";
 
 class App extends Component {
   render() {
@@ -23,6 +23,10 @@ class App extends Component {
         <Typography color="primaryLight" align="right" display="inherit">
           santhosh
         </Typography>
+        <Button>
+          Santhosh Beerelli Santhosh Beerelli Santhosh Beerelli Santhosh
+          Beerelli Santhosh Beerelli
+        </Button>
       </Fragment>
     );
   }

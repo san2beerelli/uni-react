@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Santhosh Beerelli <san2beerelli@gmail.com> (http://san2beerelli.com/)",
+  "author":
+    "Santhosh Beerelli <san2beerelli@gmail.com> (http://san2beerelli.com/)",
   "license": "MIT",
   "dependencies": {
     "prop-types": "15.6.1",

@@ -31,7 +31,6 @@ Typography.propTypes = {
   variant: PropTypes.string,
   color: PropTypes.string,
   align: PropTypes.oneOf(["auto", "left", "right", "center", "justify"]),
-
   wrap: PropTypes.bool
 };
 
