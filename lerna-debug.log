@@ -1,0 +1,821 @@
+0 silly input []
+1 silly flags { _: [ 'bootstrap' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   args: [] }
+2 verbose rootPath /San2/FutureProjects/uni-react
+3 info version 2.11.0
+4 silly existsSync /San2/FutureProjects/uni-react/VERSION
+5 info versioning independent
+6 silly initialize attempt
+7 silly npmConfig { registry: undefined,
+7 silly npmConfig   npmClient: undefined,
+7 silly npmConfig   npmClientArgs: undefined,
+7 silly npmConfig   mutex: undefined }
+8 silly initialize success
+9 silly execute attempt
+10 info Bootstrapping 2 packages
+11 info lifecycle preinstall
+12 silly runScript preinstall @unireact/components
+13 silly @unireact/components
+14 silly runScript preinstall @unireact/platform
+15 silly @unireact/platform
+16 silly hasMatchingDependency @unireact/platform @unireact/components
+17 silly hasDependencyInstalled @unireact/components prop-types
+18 silly dependencyIsSatisfied [ 'prop-types',
+18 silly dependencyIsSatisfied   '15.6.1',
+18 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/components/node_modules' ]
+19 verbose dependencyIsSatisfied prop-types true
+20 silly hasDependencyInstalled @unireact/components react
+21 silly dependencyIsSatisfied [ 'react',
+21 silly dependencyIsSatisfied   '16.3.2',
+21 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/components/node_modules' ]
+22 verbose dependencyIsSatisfied react true
+23 silly hasDependencyInstalled @unireact/platform react
+24 silly dependencyIsSatisfied [ 'react',
+24 silly dependencyIsSatisfied   '^16.3.2',
+24 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+25 verbose dependencyIsSatisfied react true
+26 silly hasDependencyInstalled @unireact/components react-test-renderer
+27 silly dependencyIsSatisfied [ 'react-test-renderer',
+27 silly dependencyIsSatisfied   '16.3.2',
+27 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/components/node_modules' ]
+28 verbose dependencyIsSatisfied react-test-renderer true
+29 silly hasDependencyInstalled @unireact/platform react-test-renderer
+30 silly dependencyIsSatisfied [ 'react-test-renderer',
+30 silly dependencyIsSatisfied   '16.3.1',
+30 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+31 verbose dependencyIsSatisfied react-test-renderer true
+32 silly hasDependencyInstalled @unireact/components styled-components
+33 silly dependencyIsSatisfied [ 'styled-components',
+33 silly dependencyIsSatisfied   '3.2.6',
+33 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/components/node_modules' ]
+34 verbose dependencyIsSatisfied styled-components true
+35 silly hasDependencyInstalled @unireact/components react-native
+36 silly dependencyIsSatisfied [ 'react-native',
+36 silly dependencyIsSatisfied   '0.55.3',
+36 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/components/node_modules' ]
+37 verbose dependencyIsSatisfied react-native true
+38 silly hasDependencyInstalled @unireact/platform react-native
+39 silly dependencyIsSatisfied [ 'react-native',
+39 silly dependencyIsSatisfied   '0.55.3',
+39 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+40 verbose dependencyIsSatisfied react-native true
+41 silly hasDependencyInstalled @unireact/components react-native-web
+42 silly dependencyIsSatisfied [ 'react-native-web',
+42 silly dependencyIsSatisfied   '0.6.1',
+42 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/components/node_modules' ]
+43 verbose dependencyIsSatisfied react-native-web true
+44 silly hasDependencyInstalled @unireact/platform react-native-web
+45 silly dependencyIsSatisfied [ 'react-native-web',
+45 silly dependencyIsSatisfied   '0.6.1',
+45 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+46 verbose dependencyIsSatisfied react-native-web true
+47 silly hasDependencyInstalled @unireact/components react-primitives
+48 silly dependencyIsSatisfied [ 'react-primitives',
+48 silly dependencyIsSatisfied   '0.5.0',
+48 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/components/node_modules' ]
+49 verbose dependencyIsSatisfied react-primitives true
+50 silly hasDependencyInstalled @unireact/platform react-primitives
+51 silly dependencyIsSatisfied [ 'react-primitives',
+51 silly dependencyIsSatisfied   '0.5.0',
+51 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+52 verbose dependencyIsSatisfied react-primitives true
+53 silly hasDependencyInstalled @unireact/components react-art
+54 silly dependencyIsSatisfied [ 'react-art',
+54 silly dependencyIsSatisfied   '16.3.2',
+54 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/components/node_modules' ]
+55 verbose dependencyIsSatisfied react-art true
+56 silly hasDependencyInstalled @unireact/platform react-art
+57 silly dependencyIsSatisfied [ 'react-art',
+57 silly dependencyIsSatisfied   '16.3.2',
+57 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+58 verbose dependencyIsSatisfied react-art true
+59 silly hasDependencyInstalled @unireact/components react-sketchapp
+60 silly dependencyIsSatisfied [ 'react-sketchapp',
+60 silly dependencyIsSatisfied   '1.1.0',
+60 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/components/node_modules' ]
+61 verbose dependencyIsSatisfied react-sketchapp true
+62 silly hasDependencyInstalled @unireact/platform react-sketchapp
+63 silly dependencyIsSatisfied [ 'react-sketchapp',
+63 silly dependencyIsSatisfied   '^1.1.0',
+63 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+64 verbose dependencyIsSatisfied react-sketchapp false
+65 silly hasDependencyInstalled @unireact/platform babel-jest
+66 silly dependencyIsSatisfied [ 'babel-jest',
+66 silly dependencyIsSatisfied   '22.4.3',
+66 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+67 verbose dependencyIsSatisfied babel-jest true
+68 silly hasDependencyInstalled @unireact/platform babel-plugin-idx
+69 silly dependencyIsSatisfied [ 'babel-plugin-idx',
+69 silly dependencyIsSatisfied   '^2.2.0',
+69 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+70 verbose dependencyIsSatisfied babel-plugin-idx true
+71 silly hasDependencyInstalled @unireact/platform babel-plugin-module-resolver
+72 silly dependencyIsSatisfied [ 'babel-plugin-module-resolver',
+72 silly dependencyIsSatisfied   '^3.1.1',
+72 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+73 verbose dependencyIsSatisfied babel-plugin-module-resolver true
+74 silly hasDependencyInstalled @unireact/platform babel-plugin-react-native-web
+75 silly dependencyIsSatisfied [ 'babel-plugin-react-native-web',
+75 silly dependencyIsSatisfied   '0.6.1',
+75 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+76 verbose dependencyIsSatisfied babel-plugin-react-native-web true
+77 silly hasDependencyInstalled @unireact/platform babel-plugin-transform-async-to-generator
+78 silly dependencyIsSatisfied [ 'babel-plugin-transform-async-to-generator',
+78 silly dependencyIsSatisfied   '6.24.1',
+78 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+79 verbose dependencyIsSatisfied babel-plugin-transform-async-to-generator true
+80 silly hasDependencyInstalled @unireact/platform babel-plugin-transform-decorators-legacy
+81 silly dependencyIsSatisfied [ 'babel-plugin-transform-decorators-legacy',
+81 silly dependencyIsSatisfied   '1.3.4',
+81 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+82 verbose dependencyIsSatisfied babel-plugin-transform-decorators-legacy true
+83 silly hasDependencyInstalled @unireact/platform babel-plugin-transform-object-rest-spread
+84 silly dependencyIsSatisfied [ 'babel-plugin-transform-object-rest-spread',
+84 silly dependencyIsSatisfied   '6.26.0',
+84 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+85 verbose dependencyIsSatisfied babel-plugin-transform-object-rest-spread true
+86 silly hasDependencyInstalled @unireact/platform babel-preset-env
+87 silly dependencyIsSatisfied [ 'babel-preset-env',
+87 silly dependencyIsSatisfied   '1.6.1',
+87 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+88 verbose dependencyIsSatisfied babel-preset-env true
+89 silly hasDependencyInstalled @unireact/platform babel-preset-es2015
+90 silly dependencyIsSatisfied [ 'babel-preset-es2015',
+90 silly dependencyIsSatisfied   '6.24.1',
+90 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+91 verbose dependencyIsSatisfied babel-preset-es2015 true
+92 silly hasDependencyInstalled @unireact/platform babel-preset-react-native
+93 silly dependencyIsSatisfied [ 'babel-preset-react-native',
+93 silly dependencyIsSatisfied   '4.0.0',
+93 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+94 verbose dependencyIsSatisfied babel-preset-react-native true
+95 silly hasDependencyInstalled @unireact/platform babel-runtime
+96 silly dependencyIsSatisfied [ 'babel-runtime',
+96 silly dependencyIsSatisfied   '6.26.0',
+96 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+97 verbose dependencyIsSatisfied babel-runtime true
+98 silly hasDependencyInstalled @unireact/platform haul
+99 silly dependencyIsSatisfied [ 'haul',
+99 silly dependencyIsSatisfied   '^1.0.0-rc.0',
+99 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+100 verbose dependencyIsSatisfied haul true
+101 silly hasDependencyInstalled @unireact/platform jest
+102 silly dependencyIsSatisfied [ 'jest',
+102 silly dependencyIsSatisfied   '22.4.3',
+102 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+103 verbose dependencyIsSatisfied jest true
+104 silly hasDependencyInstalled @unireact/platform @skpm/builder
+105 silly dependencyIsSatisfied [ '@skpm/builder',
+105 silly dependencyIsSatisfied   '^0.5.4',
+105 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+106 verbose dependencyIsSatisfied @skpm/builder false
+107 silly hasDependencyInstalled @unireact/platform autoprefixer
+108 silly dependencyIsSatisfied [ 'autoprefixer',
+108 silly dependencyIsSatisfied   '7.1.6',
+108 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+109 verbose dependencyIsSatisfied autoprefixer true
+110 silly hasDependencyInstalled @unireact/platform babel-core
+111 silly dependencyIsSatisfied [ 'babel-core',
+111 silly dependencyIsSatisfied   '6.26.0',
+111 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+112 verbose dependencyIsSatisfied babel-core true
+113 silly hasDependencyInstalled @unireact/platform babel-eslint
+114 silly dependencyIsSatisfied [ 'babel-eslint',
+114 silly dependencyIsSatisfied   '7.2.3',
+114 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+115 verbose dependencyIsSatisfied babel-eslint true
+116 silly hasDependencyInstalled @unireact/platform babel-loader
+117 silly dependencyIsSatisfied [ 'babel-loader',
+117 silly dependencyIsSatisfied   '7.1.2',
+117 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+118 verbose dependencyIsSatisfied babel-loader true
+119 silly hasDependencyInstalled @unireact/platform babel-preset-react-app
+120 silly dependencyIsSatisfied [ 'babel-preset-react-app',
+120 silly dependencyIsSatisfied   '^3.1.1',
+120 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+121 verbose dependencyIsSatisfied babel-preset-react-app true
+122 silly hasDependencyInstalled @unireact/platform case-sensitive-paths-webpack-plugin
+123 silly dependencyIsSatisfied [ 'case-sensitive-paths-webpack-plugin',
+123 silly dependencyIsSatisfied   '2.1.1',
+123 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+124 verbose dependencyIsSatisfied case-sensitive-paths-webpack-plugin true
+125 silly hasDependencyInstalled @unireact/platform chalk
+126 silly dependencyIsSatisfied [ 'chalk',
+126 silly dependencyIsSatisfied   '1.1.3',
+126 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+127 verbose dependencyIsSatisfied chalk true
+128 silly hasDependencyInstalled @unireact/platform css-loader
+129 silly dependencyIsSatisfied [ 'css-loader',
+129 silly dependencyIsSatisfied   '0.28.7',
+129 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+130 verbose dependencyIsSatisfied css-loader true
+131 silly hasDependencyInstalled @unireact/platform dotenv
+132 silly dependencyIsSatisfied [ 'dotenv',
+132 silly dependencyIsSatisfied   '4.0.0',
+132 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+133 verbose dependencyIsSatisfied dotenv true
+134 silly hasDependencyInstalled @unireact/platform dotenv-expand
+135 silly dependencyIsSatisfied [ 'dotenv-expand',
+135 silly dependencyIsSatisfied   '4.2.0',
+135 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+136 verbose dependencyIsSatisfied dotenv-expand true
+137 silly hasDependencyInstalled @unireact/platform eslint
+138 silly dependencyIsSatisfied [ 'eslint',
+138 silly dependencyIsSatisfied   '4.10.0',
+138 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+139 verbose dependencyIsSatisfied eslint true
+140 silly hasDependencyInstalled @unireact/platform eslint-config-react-app
+141 silly dependencyIsSatisfied [ 'eslint-config-react-app',
+141 silly dependencyIsSatisfied   '^2.1.0',
+141 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+142 verbose dependencyIsSatisfied eslint-config-react-app true
+143 silly hasDependencyInstalled @unireact/platform eslint-loader
+144 silly dependencyIsSatisfied [ 'eslint-loader',
+144 silly dependencyIsSatisfied   '1.9.0',
+144 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+145 verbose dependencyIsSatisfied eslint-loader true
+146 silly hasDependencyInstalled @unireact/platform eslint-plugin-flowtype
+147 silly dependencyIsSatisfied [ 'eslint-plugin-flowtype',
+147 silly dependencyIsSatisfied   '2.39.1',
+147 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+148 verbose dependencyIsSatisfied eslint-plugin-flowtype true
+149 silly hasDependencyInstalled @unireact/platform eslint-plugin-import
+150 silly dependencyIsSatisfied [ 'eslint-plugin-import',
+150 silly dependencyIsSatisfied   '2.8.0',
+150 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+151 verbose dependencyIsSatisfied eslint-plugin-import true
+152 silly hasDependencyInstalled @unireact/platform eslint-plugin-jsx-a11y
+153 silly dependencyIsSatisfied [ 'eslint-plugin-jsx-a11y',
+153 silly dependencyIsSatisfied   '5.1.1',
+153 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+154 verbose dependencyIsSatisfied eslint-plugin-jsx-a11y true
+155 silly hasDependencyInstalled @unireact/platform eslint-plugin-react
+156 silly dependencyIsSatisfied [ 'eslint-plugin-react',
+156 silly dependencyIsSatisfied   '7.4.0',
+156 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+157 verbose dependencyIsSatisfied eslint-plugin-react true
+158 silly hasDependencyInstalled @unireact/platform extract-text-webpack-plugin
+159 silly dependencyIsSatisfied [ 'extract-text-webpack-plugin',
+159 silly dependencyIsSatisfied   '3.0.2',
+159 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+160 verbose dependencyIsSatisfied extract-text-webpack-plugin true
+161 silly hasDependencyInstalled @unireact/platform file-loader
+162 silly dependencyIsSatisfied [ 'file-loader',
+162 silly dependencyIsSatisfied   '1.1.5',
+162 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+163 verbose dependencyIsSatisfied file-loader true
+164 silly hasDependencyInstalled @unireact/platform fs-extra
+165 silly dependencyIsSatisfied [ 'fs-extra',
+165 silly dependencyIsSatisfied   '3.0.1',
+165 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+166 verbose dependencyIsSatisfied fs-extra true
+167 silly hasDependencyInstalled @unireact/platform html-webpack-plugin
+168 silly dependencyIsSatisfied [ 'html-webpack-plugin',
+168 silly dependencyIsSatisfied   '2.29.0',
+168 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+169 verbose dependencyIsSatisfied html-webpack-plugin true
+170 silly hasDependencyInstalled @unireact/platform object-assign
+171 silly dependencyIsSatisfied [ 'object-assign',
+171 silly dependencyIsSatisfied   '4.1.1',
+171 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+172 verbose dependencyIsSatisfied object-assign true
+173 silly hasDependencyInstalled @unireact/platform postcss-flexbugs-fixes
+174 silly dependencyIsSatisfied [ 'postcss-flexbugs-fixes',
+174 silly dependencyIsSatisfied   '3.2.0',
+174 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+175 verbose dependencyIsSatisfied postcss-flexbugs-fixes true
+176 silly hasDependencyInstalled @unireact/platform postcss-loader
+177 silly dependencyIsSatisfied [ 'postcss-loader',
+177 silly dependencyIsSatisfied   '2.0.8',
+177 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+178 verbose dependencyIsSatisfied postcss-loader true
+179 silly hasDependencyInstalled @unireact/platform promise
+180 silly dependencyIsSatisfied [ 'promise',
+180 silly dependencyIsSatisfied   '8.0.1',
+180 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+181 verbose dependencyIsSatisfied promise true
+182 silly hasDependencyInstalled @unireact/platform raf
+183 silly dependencyIsSatisfied [ 'raf',
+183 silly dependencyIsSatisfied   '3.4.0',
+183 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+184 verbose dependencyIsSatisfied raf true
+185 silly hasDependencyInstalled @unireact/platform react-dev-utils
+186 silly dependencyIsSatisfied [ 'react-dev-utils',
+186 silly dependencyIsSatisfied   '^5.0.1',
+186 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+187 verbose dependencyIsSatisfied react-dev-utils true
+188 silly hasDependencyInstalled @unireact/platform react-dom
+189 silly dependencyIsSatisfied [ 'react-dom',
+189 silly dependencyIsSatisfied   '^16.3.2',
+189 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+190 verbose dependencyIsSatisfied react-dom true
+191 silly hasDependencyInstalled @unireact/platform resolve
+192 silly dependencyIsSatisfied [ 'resolve',
+192 silly dependencyIsSatisfied   '1.6.0',
+192 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+193 verbose dependencyIsSatisfied resolve true
+194 silly hasDependencyInstalled @unireact/platform style-loader
+195 silly dependencyIsSatisfied [ 'style-loader',
+195 silly dependencyIsSatisfied   '0.19.0',
+195 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+196 verbose dependencyIsSatisfied style-loader true
+197 silly hasDependencyInstalled @unireact/platform sw-precache-webpack-plugin
+198 silly dependencyIsSatisfied [ 'sw-precache-webpack-plugin',
+198 silly dependencyIsSatisfied   '0.11.4',
+198 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+199 verbose dependencyIsSatisfied sw-precache-webpack-plugin true
+200 silly hasDependencyInstalled @unireact/platform url-loader
+201 silly dependencyIsSatisfied [ 'url-loader',
+201 silly dependencyIsSatisfied   '0.6.2',
+201 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+202 verbose dependencyIsSatisfied url-loader true
+203 silly hasDependencyInstalled @unireact/platform webpack
+204 silly dependencyIsSatisfied [ 'webpack',
+204 silly dependencyIsSatisfied   '3.8.1',
+204 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+205 verbose dependencyIsSatisfied webpack true
+206 silly hasDependencyInstalled @unireact/platform webpack-dev-server
+207 silly dependencyIsSatisfied [ 'webpack-dev-server',
+207 silly dependencyIsSatisfied   '2.9.4',
+207 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+208 verbose dependencyIsSatisfied webpack-dev-server true
+209 silly hasDependencyInstalled @unireact/platform webpack-manifest-plugin
+210 silly dependencyIsSatisfied [ 'webpack-manifest-plugin',
+210 silly dependencyIsSatisfied   '1.3.2',
+210 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+211 verbose dependencyIsSatisfied webpack-manifest-plugin true
+212 silly hasDependencyInstalled @unireact/platform whatwg-fetch
+213 silly dependencyIsSatisfied [ 'whatwg-fetch',
+213 silly dependencyIsSatisfied   '2.0.3',
+213 silly dependencyIsSatisfied   '/San2/FutureProjects/uni-react/packages/platform/node_modules' ]
+214 verbose dependencyIsSatisfied whatwg-fetch true
+215 silly root dependencies []
+216 silly leaf dependencies {
+216 silly leaf dependencies   "@unireact/components": [
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "prop-types@15.6.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react@16.3.2",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react-test-renderer@16.3.2",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "styled-components@3.2.6",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react-native@0.55.3",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react-native-web@0.6.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react-primitives@0.5.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react-art@16.3.2",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react-sketchapp@1.1.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     }
+216 silly leaf dependencies   ],
+216 silly leaf dependencies   "@unireact/platform": [
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react@^16.3.2",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react-test-renderer@16.3.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react-native@0.55.3",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react-native-web@0.6.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react-primitives@0.5.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react-art@16.3.2",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react-sketchapp@^1.1.0",
+216 silly leaf dependencies       "isSatisfied": false
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-jest@22.4.3",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-plugin-idx@^2.2.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-plugin-module-resolver@^3.1.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-plugin-react-native-web@0.6.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-plugin-transform-async-to-generator@6.24.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-plugin-transform-decorators-legacy@1.3.4",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-plugin-transform-object-rest-spread@6.26.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-preset-env@1.6.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-preset-es2015@6.24.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-preset-react-native@4.0.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-runtime@6.26.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "haul@^1.0.0-rc.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "jest@22.4.3",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "@skpm/builder@^0.5.4",
+216 silly leaf dependencies       "isSatisfied": false
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "autoprefixer@7.1.6",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-core@6.26.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-eslint@7.2.3",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-loader@7.1.2",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "babel-preset-react-app@^3.1.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "case-sensitive-paths-webpack-plugin@2.1.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "chalk@1.1.3",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "css-loader@0.28.7",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "dotenv@4.0.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "dotenv-expand@4.2.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "eslint@4.10.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "eslint-config-react-app@^2.1.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "eslint-loader@1.9.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "eslint-plugin-flowtype@2.39.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "eslint-plugin-import@2.8.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "eslint-plugin-jsx-a11y@5.1.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "eslint-plugin-react@7.4.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "extract-text-webpack-plugin@3.0.2",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "file-loader@1.1.5",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "fs-extra@3.0.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "html-webpack-plugin@2.29.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "object-assign@4.1.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "postcss-flexbugs-fixes@3.2.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "postcss-loader@2.0.8",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "promise@8.0.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "raf@3.4.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react-dev-utils@^5.0.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "react-dom@^16.3.2",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "resolve@1.6.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "style-loader@0.19.0",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "sw-precache-webpack-plugin@0.11.4",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "url-loader@0.6.2",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "webpack@3.8.1",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "webpack-dev-server@2.9.4",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "webpack-manifest-plugin@1.3.2",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     },
+216 silly leaf dependencies     {
+216 silly leaf dependencies       "dependency": "whatwg-fetch@2.0.3",
+216 silly leaf dependencies       "isSatisfied": true
+216 silly leaf dependencies     }
+216 silly leaf dependencies   ]
+216 silly leaf dependencies }
+217 info Installing external dependencies
+218 verbose actions 1 actions, concurrency 4
+219 silly installInDir platform [ 'react@^16.3.2',
+219 silly installInDir   'react-test-renderer@16.3.1',
+219 silly installInDir   'react-native@0.55.3',
+219 silly installInDir   'react-native-web@0.6.1',
+219 silly installInDir   'react-primitives@0.5.0',
+219 silly installInDir   'react-art@16.3.2',
+219 silly installInDir   'react-sketchapp@^1.1.0',
+219 silly installInDir   'babel-jest@22.4.3',
+219 silly installInDir   'babel-plugin-idx@^2.2.0',
+219 silly installInDir   'babel-plugin-module-resolver@^3.1.1',
+219 silly installInDir   'babel-plugin-react-native-web@0.6.1',
+219 silly installInDir   'babel-plugin-transform-async-to-generator@6.24.1',
+219 silly installInDir   'babel-plugin-transform-decorators-legacy@1.3.4',
+219 silly installInDir   'babel-plugin-transform-object-rest-spread@6.26.0',
+219 silly installInDir   'babel-preset-env@1.6.1',
+219 silly installInDir   'babel-preset-es2015@6.24.1',
+219 silly installInDir   'babel-preset-react-native@4.0.0',
+219 silly installInDir   'babel-runtime@6.26.0',
+219 silly installInDir   'haul@^1.0.0-rc.0',
+219 silly installInDir   'jest@22.4.3',
+219 silly installInDir   '@skpm/builder@^0.5.4',
+219 silly installInDir   'autoprefixer@7.1.6',
+219 silly installInDir   'babel-core@6.26.0',
+219 silly installInDir   'babel-eslint@7.2.3',
+219 silly installInDir   'babel-loader@7.1.2',
+219 silly installInDir   'babel-preset-react-app@^3.1.1',
+219 silly installInDir   'case-sensitive-paths-webpack-plugin@2.1.1',
+219 silly installInDir   'chalk@1.1.3',
+219 silly installInDir   'css-loader@0.28.7',
+219 silly installInDir   'dotenv@4.0.0',
+219 silly installInDir   'dotenv-expand@4.2.0',
+219 silly installInDir   'eslint@4.10.0',
+219 silly installInDir   'eslint-config-react-app@^2.1.0',
+219 silly installInDir   'eslint-loader@1.9.0',
+219 silly installInDir   'eslint-plugin-flowtype@2.39.1',
+219 silly installInDir   'eslint-plugin-import@2.8.0',
+219 silly installInDir   'eslint-plugin-jsx-a11y@5.1.1',
+219 silly installInDir   'eslint-plugin-react@7.4.0',
+219 silly installInDir   'extract-text-webpack-plugin@3.0.2',
+219 silly installInDir   'file-loader@1.1.5',
+219 silly installInDir   'fs-extra@3.0.1',
+219 silly installInDir   'html-webpack-plugin@2.29.0',
+219 silly installInDir   'object-assign@4.1.1',
+219 silly installInDir   'postcss-flexbugs-fixes@3.2.0',
+219 silly installInDir   'postcss-loader@2.0.8',
+219 silly installInDir   'promise@8.0.1',
+219 silly installInDir   'raf@3.4.0',
+219 silly installInDir   'react-dev-utils@^5.0.1',
+219 silly installInDir   'react-dom@^16.3.2',
+219 silly installInDir   'resolve@1.6.0',
+219 silly installInDir   'style-loader@0.19.0',
+219 silly installInDir   'sw-precache-webpack-plugin@0.11.4',
+219 silly installInDir   'url-loader@0.6.2',
+219 silly installInDir   'webpack@3.8.1',
+219 silly installInDir   'webpack-dev-server@2.9.4',
+219 silly installInDir   'webpack-manifest-plugin@1.3.2',
+219 silly installInDir   'whatwg-fetch@2.0.3' ]
+220 silly installInDir backup /San2/FutureProjects/uni-react/packages/platform/package.json
+221 silly rename [ '/San2/FutureProjects/uni-react/packages/platform/package.json',
+221 silly rename   '/San2/FutureProjects/uni-react/packages/platform/package.json.lerna_backup' ]
+222 silly installInDir writing tempJson { dependencies:
+222 silly installInDir    { react: '^16.3.2',
+222 silly installInDir      'react-test-renderer': '16.3.1',
+222 silly installInDir      'react-native': '0.55.3',
+222 silly installInDir      'react-native-web': '0.6.1',
+222 silly installInDir      'react-primitives': '0.5.0',
+222 silly installInDir      'react-art': '16.3.2',
+222 silly installInDir      'react-sketchapp': '^1.1.0',
+222 silly installInDir      'babel-jest': '22.4.3',
+222 silly installInDir      'babel-plugin-idx': '^2.2.0',
+222 silly installInDir      'babel-plugin-module-resolver': '^3.1.1',
+222 silly installInDir      'babel-plugin-react-native-web': '0.6.1',
+222 silly installInDir      'babel-plugin-transform-async-to-generator': '6.24.1',
+222 silly installInDir      'babel-plugin-transform-decorators-legacy': '1.3.4',
+222 silly installInDir      'babel-plugin-transform-object-rest-spread': '6.26.0',
+222 silly installInDir      'babel-preset-env': '1.6.1',
+222 silly installInDir      'babel-preset-es2015': '6.24.1',
+222 silly installInDir      'babel-preset-react-native': '4.0.0',
+222 silly installInDir      'babel-runtime': '6.26.0',
+222 silly installInDir      haul: '^1.0.0-rc.0',
+222 silly installInDir      jest: '22.4.3',
+222 silly installInDir      '@skpm/builder': '^0.5.4',
+222 silly installInDir      autoprefixer: '7.1.6',
+222 silly installInDir      'babel-core': '6.26.0',
+222 silly installInDir      'babel-eslint': '7.2.3',
+222 silly installInDir      'babel-loader': '7.1.2',
+222 silly installInDir      'babel-preset-react-app': '^3.1.1',
+222 silly installInDir      'case-sensitive-paths-webpack-plugin': '2.1.1',
+222 silly installInDir      chalk: '1.1.3',
+222 silly installInDir      'css-loader': '0.28.7',
+222 silly installInDir      dotenv: '4.0.0',
+222 silly installInDir      'dotenv-expand': '4.2.0',
+222 silly installInDir      eslint: '4.10.0',
+222 silly installInDir      'eslint-config-react-app': '^2.1.0',
+222 silly installInDir      'eslint-loader': '1.9.0',
+222 silly installInDir      'eslint-plugin-flowtype': '2.39.1',
+222 silly installInDir      'eslint-plugin-import': '2.8.0',
+222 silly installInDir      'eslint-plugin-jsx-a11y': '5.1.1',
+222 silly installInDir      'eslint-plugin-react': '7.4.0',
+222 silly installInDir      'extract-text-webpack-plugin': '3.0.2',
+222 silly installInDir      'file-loader': '1.1.5',
+222 silly installInDir      'fs-extra': '3.0.1',
+222 silly installInDir      'html-webpack-plugin': '2.29.0',
+222 silly installInDir      'object-assign': '4.1.1',
+222 silly installInDir      'postcss-flexbugs-fixes': '3.2.0',
+222 silly installInDir      'postcss-loader': '2.0.8',
+222 silly installInDir      promise: '8.0.1',
+222 silly installInDir      raf: '3.4.0',
+222 silly installInDir      'react-dev-utils': '^5.0.1',
+222 silly installInDir      'react-dom': '^16.3.2',
+222 silly installInDir      resolve: '1.6.0',
+222 silly installInDir      'style-loader': '0.19.0',
+222 silly installInDir      'sw-precache-webpack-plugin': '0.11.4',
+222 silly installInDir      'url-loader': '0.6.2',
+222 silly installInDir      webpack: '3.8.1',
+222 silly installInDir      'webpack-dev-server': '2.9.4',
+222 silly installInDir      'webpack-manifest-plugin': '1.3.2',
+222 silly installInDir      'whatwg-fetch': '2.0.3' } }
+223 silly getExecOpts { cwd: '/San2/FutureProjects/uni-react/packages/platform' }
+224 silly installInDir [ 'npm', [ 'install' ] ]
+225 silly installInDir cleanup /San2/FutureProjects/uni-react/packages/platform/package.json
+226 silly renameSync [ '/San2/FutureProjects/uni-react/packages/platform/package.json.lerna_backup',
+226 silly renameSync   '/San2/FutureProjects/uni-react/packages/platform/package.json' ]
+227 verbose installed leaf @unireact/platform
+228 error execute callback with error
+229 error Error: Command failed: npm install
+229 error npm WARN checkPermissions Missing write access to /San2/FutureProjects/uni-react/packages/platform/node_modules/@babel
+229 error npm WARN checkPermissions Missing write access to /San2/FutureProjects/uni-react/packages/platform/node_modules
+229 error npm WARN checkPermissions Missing write access to /San2/FutureProjects/uni-react/packages/platform/node_modules/@unireact
+229 error npm WARN ajv-keywords@3.2.0 requires a peer of ajv@^6.0.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN react-native@0.55.3 requires a peer of react@16.3.1 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/preset-env@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-proposal-object-rest-spread@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-syntax-object-rest-spread@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-arrow-functions@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-block-scoping@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-classes@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-computed-properties@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-destructuring@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-exponentiation-operator@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-for-of@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-function-name@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-literals@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-modules-commonjs@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-parameters@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-regenerator@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-shorthand-properties@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-spread@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-template-literals@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/preset-react@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-react-display-name@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-react-jsx@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-react-jsx-source@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-syntax-jsx@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-proposal-async-generator-functions@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-proposal-optional-catch-binding@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-proposal-unicode-property-regex@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-syntax-async-generators@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-syntax-optional-catch-binding@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-async-to-generator@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-block-scoped-functions@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-dotall-regex@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-duplicate-keys@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-modules-amd@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-modules-systemjs@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-modules-umd@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-new-target@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-object-super@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-sticky-regex@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-typeof-symbol@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-unicode-regex@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-transform-react-jsx-self@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN @babel/plugin-syntax-jsx@7.0.0-beta.51 requires a peer of @babel/core@>=7.0.0-beta.50 <7.0.0-rc.0 but none is installed. You must install peer dependencies yourself.
+229 error npm WARN platform No repository field.
+229 error npm WARN platform No license field.
+229 error
+229 error npm ERR! path /San2/FutureProjects/uni-react/packages/platform/node_modules/@babel
+229 error npm ERR! code EACCES
+229 error npm ERR! errno -13
+229 error npm ERR! syscall access
+229 error npm ERR! Error: EACCES: permission denied, access '/San2/FutureProjects/uni-react/packages/platform/node_modules/@babel'
+229 error npm ERR!  { Error: EACCES: permission denied, access '/San2/FutureProjects/uni-react/packages/platform/node_modules/@babel'
+229 error npm ERR!   stack: 'Error: EACCES: permission denied, access \'/San2/FutureProjects/uni-react/packages/platform/node_modules/@babel\'',
+229 error npm ERR!   errno: -13,
+229 error npm ERR!   code: 'EACCES',
+229 error npm ERR!   syscall: 'access',
+229 error npm ERR!   path: '/San2/FutureProjects/uni-react/packages/platform/node_modules/@babel' }
+229 error npm ERR!
+229 error npm ERR! Please try running this command again as root/Administrator.
+229 error
+229 error npm ERR! A complete log of this run can be found in:
+229 error npm ERR!     /Users/santhoshbeerelli/.npm/_logs/2018-06-23T12_30_28_660Z-debug.log
+229 error
+229 error     at Promise.all.then.arr (/San2/FutureProjects/uni-react/node_modules/execa/index.js:236:11)
+229 error     at <anonymous>

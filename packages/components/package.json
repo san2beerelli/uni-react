@@ -6,19 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author":
-    "Santhosh Beerelli <san2beerelli@gmail.com> (http://san2beerelli.com/)",
+  "author": "Santhosh Beerelli <san2beerelli@gmail.com> (http://san2beerelli.com/)",
   "license": "MIT",
   "dependencies": {
     "prop-types": "15.6.1",
     "react": "16.3.2",
-    "react-test-renderer": "16.3.2",
-    "styled-components": "3.2.6",
+    "react-art": "16.3.2",
     "react-native": "0.55.3",
+    "react-native-remote-svg": "1.2.0",
+    "react-native-svg-uri": "1.2.3",
     "react-native-web": "0.6.1",
     "react-primitives": "0.5.0",
-    "react-art": "16.3.2",
-    "react-sketchapp": "1.1.0"
+    "react-sketchapp": "1.1.0",
+    "react-test-renderer": "16.3.2",
+    "styled-components": "3.2.6"
   },
   "peerDependencies": {
     "react": ">=16.3.2",

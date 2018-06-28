@@ -75,7 +75,6 @@ const variants = {
     fontSize: 12,
     fontWeight: baseTypography.fontWeightMedium,
     fontFamily: baseTypography.fontFamily,
-    textTransform: "uppercase",
     color: palette.textSecondary
   }
 };
